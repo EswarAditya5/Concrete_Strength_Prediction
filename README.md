@@ -7,6 +7,7 @@ A Cement and Concrete Research company has gathered raw data regarding the concr
 Predict the actual concrete compressive strength (MPa) for a given mixture under a specific age (days) based on the data provided using ANN.
 
 ## Data Description:
+- 
 
 
 ## Required Packages:
