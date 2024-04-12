@@ -7,8 +7,30 @@ A Cement and Concrete Research company has gathered raw data regarding the concr
 Predict the actual concrete compressive strength (MPa) for a given mixture under a specific age (days) based on the data provided using ANN.
 
 ## Data Description:
-- This Data is having 6 columns
-- 
+|Column|	Description|
+|--|--|
+|Cement|	kg in a m3 mixture|
+|Blast Furnace Slag	|kg in a m3 mixture|
+|Fly Ash	| kg in a m3 mixture|
+|Water|	kg in a m3 mixture|
+|Superplasticizer|	kg in a m3 mixture|
+|Coarse Aggregate	|  kg in a m3 mixture|
+|Fine Aggregate|	  kg in a m3 mixture|
+|Age|	  Day (1~365)|
+|Concrete compressive strength	|MPa (target variable)|
 
+## Scope:
+-	Exploratory data analysis
+-	Data Pre-processing
+-	Training ANN model for prediction
+-	Tuning the model to improve the performance
 
 ## Required Packages:
+- Python == 3.11
+- tensorflow
+- streamlit
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- pyplot
