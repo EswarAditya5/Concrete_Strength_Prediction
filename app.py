@@ -23,9 +23,7 @@ def collect_data(scaler):
     age = st.number_input('Age (days)', value=None,placeholder="Type a number...")
     user_input=pd.DataFrame([[cement,blast_furnace_slag,ash,water,superplasticizer,coarse_aggregate,fine_aggregate,age]],
                 columns=["Cement",'Blast Furnace Slag','Fly Ash','Water','Superplasticizer','Coarse Aggregate','Fine Aggregate','Age'])
-    # Scale the user input
     scaled_input = pd.DataFrame(scaler.transform(user_input), columns=user_input.columns)
-    
     return scaled_input
 
 # Load the saved model
